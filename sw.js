@@ -39,6 +39,7 @@ self.addEventListener("install", e => {
                 "./sounds/en/a.m4a",
                 "./sounds/en/b.m4a",
                 "./sounds/en/c.m4a",
+                "./sounds/en/d.m4a",
                 "./sounds/en/e.m4a",
                 "./sounds/en/f.m4a",
                 "./sounds/en/g.m4a",
