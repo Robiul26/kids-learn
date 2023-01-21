@@ -144,7 +144,7 @@ bookOpen = () => {
 
 bookClose = () => {
     learningSection.style.display = "none";
-    coverSection.style.display = "block";
+    coverSection.style.display = "flex";
 };
 
 
