@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="theme-color" content="#009578">
+    <title>Kids Learning</title>
+    <link rel="stylesheet" href="./src/owl.carousel.min.css">
+    <link rel="stylesheet" href="./src/owl.theme.default.min.css">
+    <link rel="stylesheet" href="./src/master.css">
+    <link rel="manifest" href="./manifest.json">
+    <link rel="apple-touch-icon" href="./images/logo192.png">
+</head>
+
+<body>
+    <!-- Cover-section starts -->
+    <section class="cover-section" id="cover-section">
+        <div class="book-list-container">
+            <!-- <div class="item">
+                <h2 id="arabiBtn">Arabik</h2>
+            </div>
+            <div class="item">
+                <h2 bnBtn>Bangla</h2>
+            </div> -->
+            <div class="item">
+                <h2 id="enBtn" onclick="bookOpen();">English</h2>
+            </div>
+            <!-- <div class="item">
+                <h2 id="mathBtn">Math</h2>
+            </div> -->
+        </div>
+    </section>
+    <!-- Cover-section ends -->
+
+    <!-- Learning-section starts  -->
+    <section class="learning-section" id="learning-section">
+        <div class="english-alphabet-learn-container">
+            <div class="english-alphabet-learn-banner">
+                <img src="./images/logo512.png" alt="photo">
+                <div class="homeBtn">
+                    <button id="homeBtn" onclick="bookClose();">
+                        Back
+                    </button>
+                </div>
+            </div>
+            <div class="right-sidebar">
+                <button id="letterBtn">👇</button>
+                <p>Touch belows letters</p>
+            </div>
+        </div>
+        <div class="footer-container">
+            <div class="owl-carousel">
+                <div class="footer-item">
+                    <button img-data="./images/en/apple.jpg" data="Apple">A</button>
+                </div>
+                <div class="footer-item">
+                    <button img-data="./images/en/ball.jpg" data="Ball">B</button>
+                </div>
+                <div class="footer-item">
+                    <button img-data="./images/en/cat.jpg" data="Cat">C</button>
+                </div>
+                <div class="footer-item">
+                    <button img-data="./images/en/dog.jpg" data="Dog">D</button>
+                </div>
+                <div class="footer-item">
+                    <button img-data="./images/en/egg.jpg" data="Egg">E</button>
+                </div>
+                <div class="footer-item">
+                    <button img-data="./images/en/fish.gif" data="Fish">F</button>
+                </div>
+                <div class="footer-item">
+                    <button img-data="./images/en/goat.jpg" data="Goat">G</button>
+                </div>
+                <div class="footer-item">
+                    <button img-data="./images/en/hen.jpg" data="Hen">H</button>
+                </div>
+                <div class="footer-item">
+                    <button img-data="./images/en/icecream.jpg" data="Icecream">I</button>
+                </div>
+                <div class="footer-item">
+                    <button img-data="./images/en/jackal.jpg" data="Jackal">J</button>
+                </div>
+                <div class="footer-item">
+                    <button img-data="./images/en/key.png" data="Key">K</button>
+                </div>
+                <div class="footer-item">
+                    <button img-data="./images/en/leg.jpg" data="Leg">L</button>
+                </div>
+                <div class="footer-item">
+                    <button img-data="./images/en/moon.jpg" data="Moon">M</button>
+                </div>
+                <div class="footer-item">
+                    <button img-data="./images/en/nose.jpg" data="Nose">N</button>
+                </div>
+                <div class="footer-item">
+                    <button img-data="./images/en/orange.jpg" data="Orange">O</button>
+                </div>
+                <div class="footer-item">
+                    <button img-data="./images/en/pineapple.jpg" data="Pineapple">P</button>
+                </div>
+                <div class="footer-item">
+                    <button img-data="./images/en/quran.jpg" data="Quran">Q</button>
+                </div>
+                <div class="footer-item">
+                    <button img-data="./images/en/rocket.gif" data="Rocket">R</button>
+                </div>
+                <div class="footer-item">
+                    <button img-data="./images/en/snail.jpg" data="Snail">S</button>
+                </div>
+                <div class="footer-item">
+                    <button img-data="./images/en/tree.png" data="Tree">T</button>
+                </div>
+                <div class="footer-item">
+                    <button img-data="./images/en/umbrella.gif" data="Umbrella">U</button>
+                </div>
+                <div class="footer-item">
+                    <button img-data="./images/en/vulture.jpg" data="Vulture">V</button>
+                </div>
+                <div class="footer-item">
+                    <button img-data="./images/en/window.jpg" data="Window">W</button>
+                </div>
+                <div class="footer-item">
+                    <button img-data="./images/en/xray.jpg" data="X-Ray">X</button>
+                </div>
+                <div class="footer-item">
+                    <button img-data="./images/en/yak.jpg" data="Yak">Y</button>
+                </div>
+                <div class="footer-item">
+                    <button img-data="./images/en/zebra.gif" data="Zebra">Z</button>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- Learning-section ends -->
+
+
+
+
+    <!-- custom Js -->
+
+    <!-- js for owl carousel -->
+    <script src="./src/jquery.min.js"></script>
+    <script src="./src/owl.carousel.min.js"></script>
+
+    <script src="./src/index.js"></script>
+    <script src="./src/app.js"></script>
+</body>
+
+</html>
